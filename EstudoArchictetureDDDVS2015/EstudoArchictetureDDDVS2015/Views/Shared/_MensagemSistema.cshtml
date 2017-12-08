@@ -1,0 +1,12 @@
+﻿@{
+    var msg = TempData["MensagemSistema"] as string;
+
+    if (!string.IsNullOrEmpty(msg))
+    {
+        msg = string.Format("$(function(){{ fAlerta('{0}'); }});", msg.Replace("'", "&#39;"));
+
+        <script type="text/javascript">
+            @(MvcHtmlString.Create(msg))
+        </script>
+    }
+}

@@ -1,0 +1,21 @@
+﻿@model EstudoArchictetureDDDVS2015.Models.TesteModel
+
+<div class="tabela">
+    <table style="width: 100%;" border="1px solid #f1f1f1">
+        <tr>
+            <th>COL1</th>
+            <th>COL2</th>
+            <th>COL3</th>
+        </tr>
+
+        @if (Model != null)
+        {
+                <tr>
+                    <td>@Html.TextBoxFor(Model => Model.COL1)</td>
+                    <td>@Html.TextBoxFor(Model => Model.COL2)</td>
+                    <td>@Html.TextBoxFor(Model => Model.COL3)</td>
+                </tr>
+        }
+    </table>
+    
+</div>

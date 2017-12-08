@@ -1,0 +1,30 @@
+﻿@model IEnumerable<EstudoArchitectureDDDVS2015DTO.testeDTO>
+
+<script type="text/javascript">$(editar_Load);</script>
+
+
+<div class="tabela">
+    <table style="width: 100%;" border="1px solid #f1f1f1">
+        <tr>
+            <th>COL1</th>
+            <th>COL2</th>
+            <th>COL3</th>
+        </tr>
+
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.COL1</td>
+                    <td>@item.COL2</td>
+                    <td>@item.COL3</td> 
+    @*<td>@Html.Button("btnEditarTeste", "Editar", true, new { data_idEditarTeste = @item.COL1 })</td>*@
+    <td>@Html.Button(null, "Editar", true, new Dictionary<string, object> { { "class", "btnEditarTeste" }, { "data-ideditarteste", @item.COL1 } })</td>
+    <td>@Html.Button("btnDeletarTeste", "Deletar", true, new { data_idEditarTeste = @item.COL1 })</td>
+</tr>
+            }
+        }
+    </table>
+</div>
+

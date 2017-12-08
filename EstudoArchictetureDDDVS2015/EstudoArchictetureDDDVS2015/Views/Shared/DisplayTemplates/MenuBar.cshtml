@@ -1,0 +1,39 @@
+﻿@model MenuHelperModel
+@using System.Text.RegularExpressions
+@*@using CDHU.GesinV2.Util.Configution*@
+
+<ul class="gesin-menu-bar">
+    @foreach (var node1 in Model.Nodes.Skip(1))
+    {
+        <li class="menu-nivel-1">
+            @MenuLink(node1)
+            <ul>
+                @foreach (var node2 in node1.Children)
+                {
+                    <li class="menu-nivel-2">
+                        @MenuLink(node2)
+                    </li>
+                }
+            </ul>
+        </li>
+    }
+</ul>
+
+@helper MenuLink(SiteMapNodeModel node)
+{
+var url = "javascript:void()";
+var gesinWebFormsRegex = new Regex(@"^[/]?[[]gesin1[.]0[]](?=[/])", RegexOptions.IgnoreCase);
+
+if (!string.IsNullOrEmpty(node.Controller) && !string.IsNullOrEmpty(node.Action))
+{
+    url = Url.Action(node.Action, node.Controller);
+}
+else if (!string.IsNullOrEmpty(node.Url) && !Regex.IsMatch(node.Url, @"^[/]?[#]\d*$"))
+{
+    //url = gesinWebFormsRegex.IsMatch(node.Url)
+    //    ? gesinWebFormsRegex.Replace(node.Url, Regex.Match(GesinConfiguracao.Config.UrlsGesin.Versao1, @"^.+[^/\\](?=[/\\]*$)").Value)
+    //    : node.Url;
+}
+
+    <a href="@url">@node.Title</a>
+}

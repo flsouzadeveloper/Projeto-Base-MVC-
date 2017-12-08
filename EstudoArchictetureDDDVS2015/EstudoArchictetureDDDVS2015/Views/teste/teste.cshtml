@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "teste";
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/dominios/teste")
+
+<script type="text/javascript">
+    $(teste_Load);
+</script>
+}
+
+<h2>teste</h2>
+
+@Html.Button("btnTeste", "Clique", true)
+@Html.Button("btnSalvarTeste", "Salvar", false)
+
+<div id="DivExibirTeste" style="width:800px; height: 600px;">
+
+</div> 
