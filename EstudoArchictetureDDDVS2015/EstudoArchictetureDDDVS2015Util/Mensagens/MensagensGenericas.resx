@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AActionPrecisaDeParametros" xml:space="preserve">
+    <value>A Action ~/{0}/{1} precisa de parametros</value>
+  </data>
+  <data name="AcaoRealizadaComSucesso" xml:space="preserve">
+    <value>Ação realizada com sucesso</value>
+  </data>
+  <data name="ActionNaoRecuperouFormaFinancimento" xml:space="preserve">
+    <value>A action EditarSinistro na controller AvisoSinistro não conseguiu recuperar informações de forma de financiamento</value>
+  </data>
+  <data name="AInformacaoNaColunaEstaEmFormatoInvalido" xml:space="preserve">
+    <value>A informação '{0}' na coluna {1} está em um formato inválido.</value>
+  </data>
+  <data name="ArquivoNaoEstaEmFormatoCorretoFormatoTextoEmUnicode" xml:space="preserve">
+    <value>O arquivo não está no formato correto. É necessário escolher um arquivo em formato 'Texto em Unicode'.</value>
+  </data>
+  <data name="AtualizacaoDadosContratoNaoSeraAtualizadaComMainframe" xml:space="preserve">
+    <value>A alteração destes dados não será atualizada com o Mainframe. Os dados alterados serão visiveis somente no sistema GESIN.</value>
+  </data>
+  <data name="AvisoCriadoComSucesso" xml:space="preserve">
+    <value>Aviso de Sinistro incluído com sucesso.</value>
+  </data>
+  <data name="ColunaNaoEncontrada" xml:space="preserve">
+    <value>A coluna [{0}] de nome '{1}' não foi encontrada no arquivo. Selecione outro arquivo para a importação.</value>
+  </data>
+  <data name="CpfInvalido" xml:space="preserve">
+    <value>CPF precisa ser um número válido.</value>
+  </data>
+  <data name="CpfNaoEncontrato" xml:space="preserve">
+    <value>Não foi encontrada uma conta com este CPF.</value>
+  </data>
+  <data name="DadosEditadosComSucesso" xml:space="preserve">
+    <value>Os dados foram editados com sucesso.</value>
+  </data>
+  <data name="DataNaoConfiguradaParaMoedaEnum" xml:space="preserve">
+    <value>O valor de data {0} não foi configurado para MoedaEnum.</value>
+  </data>
+  <data name="DeveInformarNovaSenha" xml:space="preserve">
+    <value>Você deve informar uma nova senha.</value>
+  </data>
+  <data name="ErroCargaTabelasParaCalculoCesOkcotba" xml:space="preserve">
+    <value>Erro na carga das tabelas para Cálculo do CES - OKCOTBA.</value>
+  </data>
+  <data name="ErroNaoPrevisto" xml:space="preserve">
+    <value>Erro não previsto pelo Mainframe.</value>
+  </data>
+  <data name="ErroNoCalculoCesCkcoah" xml:space="preserve">
+    <value>Erro no Cálculo do CES - CKCOAH.</value>
+  </data>
+  <data name="ErroObtencaoInformacoesDoImovelOkco1fa" xml:space="preserve">
+    <value>Erro na obtenção das informações do Imóvel - OKCO1FA.</value>
+  </data>
+  <data name="EstaFuncionalidadeNaoEstaDisponivelNoMomento" xml:space="preserve">
+    <value>Esta funcionalidade não está disponível no momento.</value>
+  </data>
+  <data name="FalhaAutenticacaoUsuario" xml:space="preserve">
+    <value>Falha na autenticação do usuário.</value>
+  </data>
+  <data name="FifConverterValidoSomenteParaString" xml:space="preserve">
+    <value>FifConverter é valido somente para string.</value>
+  </data>
+  <data name="FormatoExcelIncorreto" xml:space="preserve">
+    <value>Somente são aceitos os formatos de arquivo .xls e .xlsx.</value>
+  </data>
+  <data name="MainframeReportouErro" xml:space="preserve">
+    <value>O Mainframe reportou um erro.</value>
+  </data>
+  <data name="NaoEPossivelCriarTipo0ComValorNulo" xml:space="preserve">
+    <value>Não é possível criar um tipo {0} com um valor nulo.</value>
+  </data>
+  <data name="NaoExisteEstadoCivilParaLetra" xml:space="preserve">
+    <value>Não existe um estado civil para letra '{0}'.</value>
+  </data>
+  <data name="NaoFoiEncontradoUmaViewbagComNomeDefinido" xml:space="preserve">
+    <value>Não foi encontrado uma ViewBag com o nome {0}.</value>
+  </data>
+  <data name="NaoFoiPossivelCarregarInfoAssembly" xml:space="preserve">
+    <value>Não foi possível carregar informações do assembly da aplicação.</value>
+  </data>
+  <data name="NaoFoiPossivelConectarComMainframe" xml:space="preserve">
+    <value>Não foi possível conectar com o Mainframe</value>
+  </data>
+  <data name="NaoFoiPossivelConectarServidorAutenticacao" xml:space="preserve">
+    <value>Não foi possível se conectar com o serviço de autenticação de usuário. Contacte um administrador do sistema.</value>
+  </data>
+  <data name="NaoPodeEnviarBaixaContratoSemCreditoConfirmado" xml:space="preserve">
+    <value>O sinistro não tem uma Confirmação de Crédito cadastrado ainda, por isso não pode ser enviado para baixa de contrato no Mainframe.</value>
+  </data>
+  <data name="NomeArquivoImportacaoSeguradoraInconsistencias" xml:space="preserve">
+    <value>Importação da Seguradora - Inconsistências.txt</value>
+  </data>
+  <data name="NumeroContaECpfDivergentes" xml:space="preserve">
+    <value>O Número de Conta e CPF são divergentes.</value>
+  </data>
+  <data name="NumeroContaECpfNulos" xml:space="preserve">
+    <value>O Número da Conta e CPF não podem ser nulos ou zero ao mesmo tempo.</value>
+  </data>
+  <data name="NumeroContaNaoEncontrato" xml:space="preserve">
+    <value>Não foi encontrada uma conta com este Número da Conta.</value>
+  </data>
+  <data name="NumeroDaContaInvalido" xml:space="preserve">
+    <value>Número da Conta precisa ser um número válido.</value>
+  </data>
+  <data name="NumeroDeContaInvalido" xml:space="preserve">
+    <value>Número de conta Inválido.</value>
+  </data>
+  <data name="NumeroDeCpfInvalido" xml:space="preserve">
+    <value>Número de CPF inválido.</value>
+  </data>
+  <data name="OBinderNaoSuportaOTipo" xml:space="preserve">
+    <value>O Binder {0} não suporta o tipo {1}.</value>
+  </data>
+  <data name="OcorreuUmErroAoTentarProcessarAInformacao" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar processar a informação desejada. Contacte um administrador do sistema.</value>
+  </data>
+  <data name="OFormatoDaLetraDaColunaEstaIncorreto" xml:space="preserve">
+    <value>O formato da letra da coluna esté incorreto.</value>
+  </data>
+  <data name="OMetodoGetDictionaryFromEnumValidoSomenteParaEnumeracoesBaseadasEmInt" xml:space="preserve">
+    <value>O método GetDictionaryFromEnum é valido somente para enumerações baseadas em int.</value>
+  </data>
+  <data name="OperacaoDiferenteDe1E2" xml:space="preserve">
+    <value>A Operação é diferente de 1 ou 2.</value>
+  </data>
+  <data name="OTermoDeCoberturaNaoEValidoParaEnvioParaBaixa" xml:space="preserve">
+    <value>O ultimo termo de cobertura definido para o sinistro é TNC. TNC não podem ser enviados para baixa de contrato no Mainframe.</value>
+  </data>
+  <data name="OTipo0NaoContemValorValidoPara1" xml:space="preserve">
+    <value>O tipo {0} não contém um valor válido para {1}.</value>
+  </data>
+  <data name="OTipoNaoEValidoParaProcessamentoRetornoMainframe" xml:space="preserve">
+    <value>O tipo {0} não é válido para processamento de retorno do Mainframe.</value>
+  </data>
+  <data name="OTipoNaoHerdaDeStringEnumPorIssoNaoPodeSerConvertidoComMetodoParse" xml:space="preserve">
+    <value>O tipo {0} não herda de StringEnum por isso não pode ser convertido com o método Parse.</value>
+  </data>
+  <data name="OValorNaoEUmTipoDeSinistroValido" xml:space="preserve">
+    <value>O valor {0} não é um tipo de sinistro válido.</value>
+  </data>
+  <data name="RegistrosTncSomentePoderaoSerInclusosNaFase4" xml:space="preserve">
+    <value>Registros TNC somente poderão ser inclusos na fase 4.</value>
+  </data>
+  <data name="SinistrosDoTipoDFINaoPodemSerEnviadosParaBaixa" xml:space="preserve">
+    <value>Sinistros do tipo DFI não podem ser enviados para baixa de contrato no Mainframe.</value>
+  </data>
+  <data name="SomenteSaoPermitidosCamposQueComportamNulo" xml:space="preserve">
+    <value>Somente são aceitos, para este processo, campos que comportam valor nulo.</value>
+  </data>
+  <data name="TokenEmFormatoIncorreto" xml:space="preserve">
+    <value>O token passado está em um formato incorreto.</value>
+  </data>
+  <data name="UmSinistroSemIndenizacaoCadastradaNaoPodeSerEnviadoParaBaixa" xml:space="preserve">
+    <value>Um sinistro sem indenização cadastrada não pode ser enviado para baixa de contrato no Mainframe.</value>
+  </data>
+  <data name="UsuarioNaoExiste" xml:space="preserve">
+    <value>Usuário não existe.</value>
+  </data>
+  <data name="UsuarioNaoPossuiPermissao" xml:space="preserve">
+    <value>Usuário não possui permissão para acessar o sistema.</value>
+  </data>
+  <data name="UsuarioSimuladoNaoEncontrado" xml:space="preserve">
+    <value>O usuario simulado não foi encontrado.</value>
+  </data>
+  <data name="ValorKeyNaoPodeSerNulo" xml:space="preserve">
+    <value>O valor key não pode ser nulo</value>
+  </data>
+  <data name="ValorNaoAceitoComoObjetoSinistradoValido" xml:space="preserve">
+    <value>O valor {0} não é aceito como objeto sinistrado válido.</value>
+  </data>
+</root>

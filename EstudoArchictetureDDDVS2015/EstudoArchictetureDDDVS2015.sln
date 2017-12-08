@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchictetureDDDVS2015", "EstudoArchictetureDDDVS2015\EstudoArchictetureDDDVS2015.csproj", "{68DF3637-D3A8-47FC-B124-B08DC6B4BCF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{34E8230D-A808-4927-8228-025B6602FFEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business", "2 - Business", "{148FDCA5-A9EB-4487-B081-093A92517FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Persistence", "3 - Persistence", "{8CBFB953-755A-4D3F-A2E9-21D4B00E589E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchitectureDDDVS2015DataAccess", "EstudoArchitectureDDDVS2015DataAccess\EstudoArchitectureDDDVS2015DataAccess.csproj", "{3B98ACE9-4C50-49AE-9954-CE677E3C6516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchitectureDDDVS2015Business", "EstudoArchitectureDDDVS2015Business\EstudoArchitectureDDDVS2015Business.csproj", "{FB63C496-6CF1-4FE7-AE7D-C283C5E11FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchitectureDDDVS2015Entity", "EstudoArchitectureDDDVS2015Entity\EstudoArchitectureDDDVS2015Entity.csproj", "{619E9F18-E9D6-4975-9605-66CA614B70B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchictetureDDDVS2015Util", "EstudoArchictetureDDDVS2015Util\EstudoArchictetureDDDVS2015Util.csproj", "{49E99E7A-DE22-438A-AA93-D5C5EC5CCED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchitectureDDDVS2015Mapping", "EstudoArchitectureDDDVS2015Mapping\EstudoArchitectureDDDVS2015Mapping.csproj", "{3532265E-1D8D-422A-B4C4-284C1F578562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoArchitectureDDDVS2015DTO", "EstudoArchitectureDDDVS2015DTO\EstudoArchitectureDDDVS2015DTO.csproj", "{BA26C279-E81B-4CA9-965B-B8DFD63E3198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68DF3637-D3A8-47FC-B124-B08DC6B4BCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DF3637-D3A8-47FC-B124-B08DC6B4BCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DF3637-D3A8-47FC-B124-B08DC6B4BCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DF3637-D3A8-47FC-B124-B08DC6B4BCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B98ACE9-4C50-49AE-9954-CE677E3C6516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B98ACE9-4C50-49AE-9954-CE677E3C6516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B98ACE9-4C50-49AE-9954-CE677E3C6516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B98ACE9-4C50-49AE-9954-CE677E3C6516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB63C496-6CF1-4FE7-AE7D-C283C5E11FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB63C496-6CF1-4FE7-AE7D-C283C5E11FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB63C496-6CF1-4FE7-AE7D-C283C5E11FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB63C496-6CF1-4FE7-AE7D-C283C5E11FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619E9F18-E9D6-4975-9605-66CA614B70B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619E9F18-E9D6-4975-9605-66CA614B70B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619E9F18-E9D6-4975-9605-66CA614B70B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619E9F18-E9D6-4975-9605-66CA614B70B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E99E7A-DE22-438A-AA93-D5C5EC5CCED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E99E7A-DE22-438A-AA93-D5C5EC5CCED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E99E7A-DE22-438A-AA93-D5C5EC5CCED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E99E7A-DE22-438A-AA93-D5C5EC5CCED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3532265E-1D8D-422A-B4C4-284C1F578562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3532265E-1D8D-422A-B4C4-284C1F578562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3532265E-1D8D-422A-B4C4-284C1F578562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3532265E-1D8D-422A-B4C4-284C1F578562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA26C279-E81B-4CA9-965B-B8DFD63E3198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA26C279-E81B-4CA9-965B-B8DFD63E3198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA26C279-E81B-4CA9-965B-B8DFD63E3198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA26C279-E81B-4CA9-965B-B8DFD63E3198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68DF3637-D3A8-47FC-B124-B08DC6B4BCF7} = {34E8230D-A808-4927-8228-025B6602FFEF}
+		{3B98ACE9-4C50-49AE-9954-CE677E3C6516} = {8CBFB953-755A-4D3F-A2E9-21D4B00E589E}
+		{FB63C496-6CF1-4FE7-AE7D-C283C5E11FB7} = {148FDCA5-A9EB-4487-B081-093A92517FEA}
+		{619E9F18-E9D6-4975-9605-66CA614B70B2} = {8CBFB953-755A-4D3F-A2E9-21D4B00E589E}
+		{49E99E7A-DE22-438A-AA93-D5C5EC5CCED4} = {148FDCA5-A9EB-4487-B081-093A92517FEA}
+		{3532265E-1D8D-422A-B4C4-284C1F578562} = {8CBFB953-755A-4D3F-A2E9-21D4B00E589E}
+		{BA26C279-E81B-4CA9-965B-B8DFD63E3198} = {148FDCA5-A9EB-4487-B081-093A92517FEA}
+	EndGlobalSection
+EndGlobal
